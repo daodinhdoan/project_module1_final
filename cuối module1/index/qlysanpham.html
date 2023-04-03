@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/qlsp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h2>Quản lý Sản Phẩm</h2>
+        <label for=""><i class="fa-solid fa-id-card-clip"></i> ID</label> <br>
+        <input id="id" type="number"  placeholder="Nhập Id"><br>
+        <label for=""><i class="fa-solid fa-user"></i>Name</label> <br>    
+        <input id="name" type="text"   placeholder="nhập tên"><br>     
+        <input type="file" id="imgProduct" style="outline: none" />
+        <img id="image" src="" alt="" width="100px" height="100px" />
+        <label for="">So luong</label>
+        <input type="text" id="soluong">
+        <input id="price" type="text"  placeholder="Price"><br>
+        <button onclick="saveInfo()"><i class="fa-solid fa-floppy-disk"></i></button>
+        <div class="product">
+            <table  id="table">
+            <!--        <tr>
+                       <td>ID</td>
+                       <td>Name</td>
+                       <td>image</td>
+                       <td>price</td>
+                   </tr> -->
+               </table>
+       </div>
+            
+    </div>
+    <script src="/js/qlsp.js"></script>
+</body>
+</html>

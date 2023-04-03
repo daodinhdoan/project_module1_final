@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2 {
+    background-color: rgb(220, 252, 95);
+    height: 60px;
+    padding: 15px;
+    text-align: center;
+}
+#id {
+    height: 30px;
+    margin: 20px;
+}
+#name {
+    height: 30px;
+    margin: 20px;
+}
+#file { 
+    height: 30px;
+    margin: 20px;
+}
+#price {
+    height: 30px;
+    margin: 20px;
+}
+button {
+    height: 30px;
+    width: 100px;
+}
+img {
+    width: 80px
+}
+h1 {
+    font-size: 16px;
+}
+.product {
+    display: flex;
+}
+
